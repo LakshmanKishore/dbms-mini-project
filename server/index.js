@@ -9,7 +9,7 @@ var mysql = require('mysql');
 // For using mysql in terminal use command `sudo service mysql start`
 
 var corsOptions = {
-  origin: ["https://mini-project-ywkjy.run-ap-south1.goorm.io","https://localhost:3000"]
+  origin: ["https://mini-project-ywkjy.run-ap-south1.goorm.io","http://localhost:3000"]
 };
 
 app.use(cors(corsOptions));
